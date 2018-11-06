@@ -3,6 +3,9 @@ body {
 font-family: 'Merriweather', serif;
 }
 
+input:focus { 
+    border-color: blue;
+}
 
 /*Media Queries Phone------------------------------------ */
 
@@ -34,7 +37,15 @@ fieldset {
 border:none;
 padding-left:0px;
 display:flex;
-align-items:space-around;
+align-content:space-around;
+}
+
+.newsletter {
+flex-wrap:no wrap;
+
+}
+.newsletter input{
+margin-right:0px;
 }
 
 legend {
@@ -51,9 +62,9 @@ font-size: 0.9em;
  color: #797979;
 }
 
-placeholder {
+input::placeholder {
 text-align:right;
-align-items:flex-end;
+padding-right:5px;
 }
 
 textarea {
