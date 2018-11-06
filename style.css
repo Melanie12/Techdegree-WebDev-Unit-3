@@ -52,13 +52,26 @@ font-size: 0.9em;
 label, input {
 justify-content:flex-start;
 flex-direction:column;
+}
 
+textarea {
+background-color:#dedede;
+border:none;
+}
+
+button {
+background-color:#53bbb3;
+border:none;
+padding:15px;
+color:white;
+font-weight:700;
+border-radius : 5px;
+justify-content:center;
+align-items:center;
+margin:auto;
 }
 
 
-text {
-border-radius : 10px;
-}
 
 /*Media Queries Phone------------------------------------ */
 
