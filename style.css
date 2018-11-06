@@ -67,10 +67,13 @@ text-align:right;
 padding-right:5px;
 }
 
+
+
 textarea {
 background-color:#dedede;
 border:none;
-align-content:stretch;
+align-items:stretch;
+margin:auto;
 }
 
 button {
