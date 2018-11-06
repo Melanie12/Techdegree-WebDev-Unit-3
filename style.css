@@ -3,6 +3,11 @@ body {
 font-family: 'Merriweather', serif;
 }
 
+
+/*Media Queries Phone------------------------------------ */
+
+@media (min-width:320px) {
+
 .title {
 text-align: center;
     color: white;
@@ -25,15 +30,11 @@ color: #CACACA;
 font-size: 0.9em;
 }
 
-form {
-display : flex;
-flex-direction:column;
-}
-
 fieldset {
 border:none;
 padding-left:0px;
-flex-wrap:wrap;
+display:flex;
+align-items:space-around;
 }
 
 legend {
@@ -44,19 +45,21 @@ padding-left:0px:
 }
 
 label {
+padding-bottom: 5px;
+padding-top: 5px;
 font-size: 0.9em;
  color: #797979;
-
 }
 
-label, input {
-justify-content:flex-start;
-flex-direction:column;
+placeholder {
+text-align:right;
+align-items:flex-end;
 }
 
 textarea {
 background-color:#dedede;
 border:none;
+align-content:stretch;
 }
 
 button {
@@ -66,6 +69,7 @@ padding:15px;
 color:white;
 font-weight:700;
 border-radius : 5px;
+align-content:stretch;
 justify-content:center;
 align-items:center;
 margin:auto;
@@ -73,9 +77,6 @@ margin:auto;
 
 
 
-/*Media Queries Phone------------------------------------ */
-
-@media (min-width:320px) {
 
 }
 
