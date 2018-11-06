@@ -1,0 +1,27 @@
+
+body {
+font-family: 'Merriweather', serif;
+}
+
+fieldset {
+display : flex;
+border:none;
+}
+
+
+
+text {
+border-radius : 10px;
+}
+
+/*Media Queries Phone------------------------------------ */
+
+@media (min-width:320px) {
+
+}
+
+/*Media Queries Desktop------------------------------------ */
+
+@media (min-width:768px) {
+
+}
