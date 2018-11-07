@@ -27,10 +27,11 @@ color:#263B47;
 font-size: 1.2em;
 }
 
-p:nth-of-type(1) {
+h3 {
 text-align: center;
 color: #CACACA;
 font-size: 0.9em;
+font-weight:400;
 }
 
 fieldset {
