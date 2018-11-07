@@ -1,6 +1,7 @@
 
 *{
 font-family: 'Merriweather', serif;
+box-sizing:border-box;
 }
 
 input:focus { 
@@ -17,9 +18,7 @@ p{
  color: #797979;
 }
 
-/*Media Queries Phone------------------------------------ */
 
-@media (min-width:320px) {
 
 .title {
 text-align: center;
@@ -125,7 +124,6 @@ border-radius : 5px;
 width:100%;
 }
 
-}
 
 /*Media Queries Desktop------------------------------------ */
 
