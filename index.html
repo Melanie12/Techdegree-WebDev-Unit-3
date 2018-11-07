@@ -10,7 +10,6 @@
   </head>
   <body>
 
-
  <div class="title">
 	<h1>The code review </h1>
 </div>
@@ -22,6 +21,7 @@
  <form action="index.html" method="post">
  
 <fieldset class="contact">
+
 <legend>Contact information </legend>
 
 	<label for="name">Full Name</label>
@@ -54,19 +54,30 @@
 <fieldset class="newsletter">
 
 <legend>Newsletter</legend>
-<label>Select the newsletter you would like to receive </label>
-	<input type="checkbox" id="html_news" value="html_news" name="newsletter_topic"><label>HTML News</label>
-	<input type="checkbox" id="css_news" value="css_news" name="newsletter_topic"><label>CSS News</label>
-	<input type="checkbox" id="javascript_news" value="javascript_news" name="newsletter_topic"><label>Javascript News</label>
-
-<label>Newsletter format </label>
-	<input type="radio" id="html" value="html" name="newsletter_format"><label>HTML</label>
-	<input type="radio" id="plain_text" value="plain_text" name="newsletter_format"><label>Plain Text</label>
-
+<p>Select the newsletter you would like to receive</p>
+	<div class="newsletter_choice">
+		<input type="checkbox" id="html_news" value="html_news" name="newsletter_topic"><label>HTML News</label>
+	</div>
+	<div class="newsletter_choice">
+		<input type="checkbox" id="css_news" value="css_news" name="newsletter_topic"><label>CSS News</label>
+	</div>
+	<div class="newsletter_choice">
+		<input type="checkbox" id="javascript_news" value="javascript_news" name="newsletter_topic"><label>Javascript News</label>
+	</div>
+	
+<p>Newsletter format </p>
+	<div class="newsletter_choice">
+		<input type="radio" id="html" value="html" name="newsletter_format"><label>HTML</label>
+	</div>
+	<div class="newsletter_choice">
+		<input type="radio" id="plain_text" value="plain_text" name="newsletter_format"><label>Plain Text</label>
+	</div>
+	
 <label>Other topics you'd like to hear about </label>
 <textarea id="topic" name="user_topic"> </textarea>
 
 <button type="submit">Sign Up</button>
+
 
 </fieldset>
 </form>

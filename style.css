@@ -27,7 +27,7 @@ color:#263B47;
 font-size: 1.2em;
 }
 
-p {
+p:nth-of-type(1) {
 text-align: center;
 color: #CACACA;
 font-size: 0.9em;
@@ -38,12 +38,10 @@ border:none;
 padding-left:0px;
 display:flex;
 align-content:space-around;
-}
-
-.newsletter {
-flex-wrap:no wrap;
 
 }
+
+
 .newsletter input{
 margin-right:0px;
 }
@@ -67,7 +65,9 @@ text-align:right;
 padding-right:5px;
 }
 
-
+.newsletter_choice label {
+padding-left:10px;
+}
 
 textarea {
 background-color:#dedede;
