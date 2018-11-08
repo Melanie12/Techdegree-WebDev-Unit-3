@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="EN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,41 +17,64 @@
 <h2>Signup for our newsletter </h2>
 <h3>Get the latest news on how your code is doing right in your inbox </h3>
 
-<hr>
  <form action="index.html" method="post">
- 
+	<hr id="main_hr">
+	<hr id="main_hr2">
 <fieldset class="contact">
 
 <legend>Contact information </legend>
 
-	<label for="name">Full Name</label>
-		<input type="text" id="name" name="full_name" placeholder="Required">
-
-	<label for="email">Email Address</label>
-		<input type="email" id="email" name="email_adress" placeholder="Required">
-
-	<label for="phone">Phone Number</label>
-		<input type="tel" id="phone" name="phone_number">
-
-	<label for="adress">Street Address</label>
-		<input type="text" id="adress" name="street_adress">
-
-	<label for="city">City</label>
-		<input type="text" id="city" name="user_city">
+	<div class="user_info">
+			<label for="name">Full Name</label>
+			<input required type="text" id="name" name="full_name" placeholder="Required"><br>
+	</div>
 	
-	<label for="state">State</label>	
-		<select id="state" name="user_state">
-			<option value="0">Choose State:</option>
-			<option value="Alabama">Alabama</option>
-			<option value="Nebraska">Nebraska</option>
-			<option value="Texas">Texas</option>
-			<option value="Wisconsin">Wisconsin</option>
-		</select>
-	<label for="zip">Zip Code</label>
+	<div class="user_info">
+		<label for="email">Email Address</label>
+			<input required type="email" id="email" name="email_adress" placeholder="Required"><br>
+	</div>
+	
+	<div class="user_info">
+		<label for="phone">Phone Number</label>
+		<input type="tel" id="phone" name="phone_number"><br>
+	</div>
+	
+	<div class="user_info">
+		<label for="adress">Street Address</label>
+		<input type="text" id="adress" name="street_adress"><br>
+	</div>
+	
+	<div class="user_info">
+		<label for="city">City</label>
+		<input type="text" id="city" name="user_city"><br>
+	</div>
+	
+	<div class="user_info">
+		<label for="state">State</label>	
+			<select id="state" name="user_state">
+				<option value="0">Choose State:</option>
+				<option value="Alabama">Alabama</option>
+				<option value="arizona">Arizona</option>
+				<option value="california">California</option>
+				<option value="oregon">Oregon</option>
+				<option value="Nebraska">Nebraska</option>
+				<option value="new mexico">New Mexico</option>
+				<option value="texas">Texas</option>
+				<option value="washington">Washington</option>
+				<option value="Wisconsin">Wisconsin</option>
+			</select>
+	</div>
+	
+	<div class="user_info">
+		<label for="zip">Zip Code</label>
 		<input type="text" id="zip" name="zip_code">
-</fieldset>
+	</div>	
 
-<fieldset class="newsletter">
+</fieldset>
+<hr>
+
+<div class="newsletter">
+<fieldset>
 
 <legend>Newsletter</legend>
 <p>Select the newsletter you would like to receive</p>
@@ -73,15 +96,17 @@
 		<input type="radio" id="plain_text" value="plain_text" name="newsletter_format"><label>Plain Text</label>
 	</div>
 	
-<label>Other topics you'd like to hear about</label>
-<textarea id="topic" name="user_topic"></textarea>
-
-<button type="submit">Sign Up</button>
-
+	<div class="newsletter_choice">
+		<label>Other topics you'd like to hear about</label>
+		<textarea id="topic" name="user_topic" placeholder="Feel free to share to us your favorite topics"></textarea>
+	</div>
 </fieldset>
+</div>
+<br>
+<button type="submit">Sign Up</button>
 </form>
 
-<p id="copyright">Copyright The Code Review </p>
+<p id="copyright">&copy; The Code Review </p>
     
 
   </body>
