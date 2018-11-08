@@ -56,29 +56,24 @@ padding-left:0px;
 width:100%;
 background-color:#E8E8E8;
 border-radius : 5px;
+color:#75757C;
 border:none;
 height:45px;
 margin-top:10px;
 margin-bottom :10px;
-color:#75757C;
 transition: background-color 2s;
 }
 
-input:focus {
+input:focus{
    outline-color: black;
   background-color:white;
-
 }
-
 
 #zip {
 width:70%;
 display:block;
 }
 
-.newsletter input{
-margin-right:0px;
-}
 
 legend {
 font-weight:700;
@@ -88,8 +83,6 @@ padding-left:0px;
 }
 
 .contact label {
-padding-bottom: 5px;
-padding-top: 5px;
 font-size: 0.9em;
  color: #797979;
 }
@@ -101,19 +94,26 @@ padding-right:10px;
 
 .newsletter {
 background-color:#efeff7;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.newsletter input{
+margin-right:0px;
 }
 
 .newsletter_choice label {
 margin:0,10,20,20;
 font-size: 0.9em;
  color: #797979;
+ padding-right:0px;
 }
 
 
 textarea {
 background-color:#DFDFDF;
 border:none;
-width:100%;
+width:103%;
 border-radius : 5px;
 margin-top :10px;
 margin-bottom :10px;
@@ -123,7 +123,7 @@ height:70px;
 button {
 background-color:#53bbb3;
 border:none;
-padding: 15px 25px 15px 20px;
+padding: 15px 0px 15px 20px;
 color:white;
 font-weight:700;
 border-radius : 5px;

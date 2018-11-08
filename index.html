@@ -73,11 +73,11 @@
 </fieldset>
 <hr>
 
-<div class="newsletter">
-<fieldset>
 
+<fieldset>
 <legend>Newsletter</legend>
 <p>Select the newsletter you would like to receive</p>
+<div class="newsletter">
 	<div class="newsletter_choice">
 		<input type="checkbox" id="html_news" value="html_news" name="newsletter_topic"><label>HTML News</label>
 	</div>
@@ -87,7 +87,7 @@
 	<div class="newsletter_choice">
 		<input type="checkbox" id="javascript_news" value="javascript_news" name="newsletter_topic"><label>Javascript News</label>
 	</div>
-	
+</div>
 <p>Newsletter format </p>
 	<div class="newsletter_choice">
 		<input type="radio" id="html" value="html" name="newsletter_format"><label>HTML</label>
@@ -95,13 +95,15 @@
 	<div class="newsletter_choice">
 		<input type="radio" id="plain_text" value="plain_text" name="newsletter_format"><label>Plain Text</label>
 	</div>
-	
+
+
+
 	<div class="newsletter_choice">
 		<label>Other topics you'd like to hear about</label>
-		<textarea id="topic" name="user_topic" placeholder="Feel free to share to us your favorite topics"></textarea>
+		<textarea id="topic" name="user_topic" placeholder="Optional"></textarea>
 	</div>
 </fieldset>
-</div>
+
 <br>
 <button type="submit">Sign Up</button>
 </form>
