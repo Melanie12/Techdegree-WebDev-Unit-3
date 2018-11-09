@@ -70,7 +70,7 @@ input:focus{
 }
 
 #zip {
-width:50%;
+width:70%;
 display:block;
 }
 
@@ -149,16 +149,27 @@ margin:auto;
     margin: auto;
     flex-basis: 200px;
 }
-
-#zip {
-display: block;
-/*    margin: auto;*/
-    flex-basis: 50px;
-	align-items:flex-start;
-}
-
 .user_info input,select {
     flex-basis: 350px;
     flex-grow: 1;
   }
+
+
+#zip {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#zip label {
+    flex-grow: 1;
+}
+
+ #zip input {
+    margin-left: 24%;
+	
+ }
+
 }
